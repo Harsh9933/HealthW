@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block body %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+    <div class="container">
+        <div class="mapdiv">
+        <img src="/static/img/body.png" usemap="#image_map" />
+        <map name="image_map">
+          <area
+            alt="shoulder"
+            title="shoulder"
+            href="https://musclewiki.com/exercises/male/shoulders"
+            target="_blank"
+            coords="132,194 140,173 150,155 164,144 190,141 203,144 181,164 167,181 153,189 "
+            shape="polygon"
+          />
+          <area
+            alt="right_shoulder"
+            title="right_shoulder"
+            href="#"
+            target="_blank"
+            coords="282,144 309,144 323,146 338,158 344,171 350,187 352,197 341,191 329,189 313,174 301,159 291,151 "
+            shape="polygon"
+          />
+          <area
+            alt="chest"
+            title="chest"
+            href="#"
+            target="_blank"
+            coords="208,224 222,214 238,211 242,215 249,212 267,215 277,223 275,232 273,248 271,267 271,294 267,328 256,349 245,363 232,356 218,335 213,308 211,271 "
+            shape="polygon"
+          />
+        </map>
+      </div>
+    </div>
+  </body>
+</html>
+
+{% endblock body %}
